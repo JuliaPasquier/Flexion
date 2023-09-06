@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Allan&family=Open+Sans:ital,wght@0,300;0,400;1,600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Allan", cursive;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background: #2d4480;
+  padding: 150px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.conteiner {
+  position: relative;
+  width: 288px;
+  height: 469px;
+  border-radius: 27px;
+  box-shadow: 5px 20px 50px 0px rgba(0, 0, 0, 0.6);
+  padding: 35px 50px;
+  background-color: rgb(255, 255, 255, 1);
+}
+h1 {
+  font-weight: 300;
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+li {
+  line-height: normal;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.96px;
+  list-style: none;
+}
+#check1 {
+  margin-top: 28px;
+  margin-bottom: 10px;
+}
+#check2 {
+  margin-bottom: 10px;
+}
+#fail0 {
+  margin-bottom: 10px;
+}
+#fail1 {
+  margin-bottom: 10px;
+}
+li img {
+  padding-right: 23px;
+}
+
+ul {
+  list-style-type: none;
+}
+hr {
+  margin: 27px auto 8px;
+  width: calc(288px - 100px);
+}
+h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1em;
+  letter-spacing: 4.68px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Noto Sans Symbols", sans-serif;
+  margin-bottom: 9px;
+}
+h3 {
+  bottom: 69px;
+  right: 62px;
+  line-height: 36px;
+  font-size: 36px;
+  font-family: "Allan", cursive;
+  font-weight: 400;
+  color: #2d4480;
+  margin-top: 9px;
+  transform: translateX(100px);
+}
+button {
+  position: absolute;
+  width: 181px;
+  height: 68px;
+  top: 430px;
+  left:20%;
+  border-radius: 34px;
+  background-color: #ffbc0f;
+  text-transform: uppercase;
+  border: none;
+  text-decoration: none;
+  font-weight: 700;
+}
